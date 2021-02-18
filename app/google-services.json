@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "984849408111",
+    "project_id": "duetlibrary-a1c09",
+    "storage_bucket": "duetlibrary-a1c09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:984849408111:android:c9274ceadebffd251ced9a",
+        "android_client_info": {
+          "package_name": "com.rrp.duetlibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "984849408111-543jcoaob0jc5653f0dqdge9gq59n4fm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rrp.duetlibrary",
+            "certificate_hash": "56adc814739920e07531bf839eddc870c94ccb4f"
+          }
+        },
+        {
+          "client_id": "984849408111-5eh4ksmjd05rv3rdrk6efv6ghjtpl665.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGecsMqlrPmTCMnQxcn90xt-Fvuj7p04A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "984849408111-5eh4ksmjd05rv3rdrk6efv6ghjtpl665.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

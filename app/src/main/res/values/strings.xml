@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DUET Library</string>
+    <string-array name="book_cover">
+        <item>Programming in C</item>
+        <item>Programming in C++</item>
+        <item>Head First Java</item>
+        <item>Head First Javascript</item>
+        <item>Head First HTML</item>
+        <item>Head First PHP</item>
+        <item>Cookbook Javascript</item>
+        <item>Programming in C</item>
+        <item>Programming in C++</item>
+        <item>Head First Java</item>
+        <item>Head First Javascript</item>
+        <item>Head First HTML</item>
+        <item>Head First PHP</item>
+        <item>Cookbook Javascript</item>
+        <item>Programming in C</item>
+    </string-array>
+    <string-array name="dept_name">
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+        <item>CSE</item>
+        <item>EEE</item>
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Chemistry</item>
+    </string-array>
+</resources>

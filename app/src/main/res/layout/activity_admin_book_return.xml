@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".AdminBookReturn">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:scrollbars="horizontal"
+            android:layout_height="match_parent">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TableRow
+                    android:id="@+id/borrowedTitleRowId"
+                    android:layout_height="30dp"
+                    android:background="#0B76C6">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="SN"
+                        android:gravity="center_horizontal"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Book Name"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Author"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="SID"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Issues Date"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Accept"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/borrowedBookRow1"
+                    android:layout_height="30dp"
+                    android:background="#fff">
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#0B76C6"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Programming C"
+                        android:textColor="#0B76C6"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="Zahid"
+                        android:textColor="#0B76C6"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:text="1"
+                        android:gravity="center_horizontal"
+                        android:textColor="#0B76C6"
+                        android:textSize="18sp" />
+
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:padding="10dp"
+                        android:gravity="center_horizontal"
+                        android:text="01/02/21"
+                        android:textColor="#0B76C6"
+                        android:textSize="18sp" />
+
+                    <!--                    <TextView-->
+                    <!--                        android:layout_height="match_parent"-->
+                    <!--                        android:padding="10dp"-->
+                    <!--                        android:gravity="center_horizontal"-->
+                    <!--                        android:text="Return"-->
+                    <!--                        android:textColor="#F1061A"-->
+                    <!--                        android:textSize="18sp" />-->
+                    <Button
+                        android:textColor="#fff"
+                        android:text="Accept"/>
+                </TableRow>
+            </TableLayout>
+
+        </HorizontalScrollView>
+    </LinearLayout>
+
+</LinearLayout>

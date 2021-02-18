@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginSpinnerId"
+
+        android:background="@drawable/border"
+        android:padding="15dp"
+        android:textColor="#0B76C6"
+        android:layout_marginBottom="2dp"
+        android:drawablePadding="10dp"
+        android:drawableLeft="@drawable/ic_baseline_person_24"/>
+
+</LinearLayout>
